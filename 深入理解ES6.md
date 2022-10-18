@@ -266,3 +266,31 @@ const foo = new Function('...args', 'return args[0]');
 console.log(foo(1, 2, 3, 4)); // 1
 ```
 
+### 展开运算符
+
+ES5 获取数组 max
+
+```js
+const values = [25, 50, 75, 100];
+
+console.log(Math.max.apply(null, values));
+```
+
+ES6 展开运算符获取数组 max
+
+```js
+const values = [25, 50, 75, 100];
+
+console.log(Math.max(...values)); // 100
+// 等价于
+console.log(Math.max(25, 50, 75, 100)); // 100
+```
+
+限制最小值
+
+```javascript
+const values = [25, 50, 75, 100];
+
+console.log(Math.min(...values, 0)); // 0
+```
+
