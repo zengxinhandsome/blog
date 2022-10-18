@@ -2,7 +2,7 @@
 
 ## JavaScript
 
-### [空值合并运算符：??](/JavaScript/空值合并运算符??.md)
+### [空值合并运算符：??](/JavaScript/空值合并运算符.md)
 
 ## React
 
